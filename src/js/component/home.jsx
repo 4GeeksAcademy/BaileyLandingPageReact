@@ -7,13 +7,7 @@ import Navbar from "./Navbar";
 
 //create your first component
 const Home = () => {
-	return (
-		<div>
-			<Navbar />
-		</div>
-	);
+	return <Navbar />
 };
-
-
 
 export default Home;

@@ -2,15 +2,23 @@ import React from "react"
 
 const Navbar = () => {
     return (
-        <div className="nav">
+        <nav className="nav">
             <a href="/" className="siteTitle">Start Bootstrap</a>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-        </div>
+            <ul>
+                <li className="active">
+                    <a href="/Home">Home</a>
+                </li>
+                <li className="inactive">
+                    <a href="/About">About</a>
+                </li>
+                <li className="inactive">
+                    <a href="/Services">Services</a>
+                </li>
+                <li className="inactive">
+                    <a href="/Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     )
 }
 
